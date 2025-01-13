@@ -56,7 +56,9 @@
             "description": "Contact deleted successfully"
           }
         }
-      },
+      }
+    },
+    "/api/contacts/{id}": {
       "put": {
         "summary": "Update a contact by ID",
         "parameters": [
