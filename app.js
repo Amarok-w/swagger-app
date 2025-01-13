@@ -18,7 +18,7 @@ app.listen(4000, () => {
 });
 
 let CONTACTS = [
-  {id: v4(), name: 'Vadim', value: '+7-921-100-20-30', marked: false}
+  {id: v4(), name: 'Vlad', value: '+7-921-100-20-30', marked: false}
 ]
 
 app.use(express.json());
